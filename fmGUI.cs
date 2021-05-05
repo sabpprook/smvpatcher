@@ -27,8 +27,8 @@ namespace smvpatcher
             smv = Path.GetTempFileName();
             File.WriteAllBytes(smv, Properties.Resources.smv);
 
-            num_blocksize.SelectedIndex = num_blocksize.Items.Count - 2;
-            num_minalign.SelectedIndex = num_minalign.Items.Count - 1;
+            num_blocksize.SelectedIndex = num_blocksize.Items.Count - 4;
+            num_minalign.SelectedIndex = 0;
             combo_ratio.SelectedIndex = 0;
         }
 

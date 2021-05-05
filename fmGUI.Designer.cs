@@ -161,9 +161,7 @@ namespace smvpatcher
             // 
             // num_minalign
             // 
-            this.num_minalign.Items.Add("2048");
-            this.num_minalign.Items.Add("1024");
-            this.num_minalign.Items.Add("512");
+            this.num_minalign.Items.Add("1");
             this.num_minalign.Location = new System.Drawing.Point(81, 68);
             this.num_minalign.Name = "num_minalign";
             this.num_minalign.Size = new System.Drawing.Size(101, 26);
@@ -182,10 +180,17 @@ namespace smvpatcher
             // 
             // num_blocksize
             // 
-            this.num_blocksize.Items.Add("16384");
             this.num_blocksize.Items.Add("8192");
             this.num_blocksize.Items.Add("4096");
             this.num_blocksize.Items.Add("2048");
+            this.num_blocksize.Items.Add("1024");
+            this.num_blocksize.Items.Add("512");
+            this.num_blocksize.Items.Add("256");
+            this.num_blocksize.Items.Add("128");
+            this.num_blocksize.Items.Add("64");
+            this.num_blocksize.Items.Add("32");
+            this.num_blocksize.Items.Add("16");
+            this.num_blocksize.Items.Add("8");
             this.num_blocksize.Location = new System.Drawing.Point(82, 30);
             this.num_blocksize.Name = "num_blocksize";
             this.num_blocksize.Size = new System.Drawing.Size(100, 26);
